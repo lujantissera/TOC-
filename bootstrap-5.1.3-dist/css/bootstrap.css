@@ -4644,9 +4644,16 @@ textarea.form-control-lg {
   }
 }
 
+
+
 .accordion{
-  background-color: rgb(48, 42, 34);
-}
+  background-color: white;
+  
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  }
+
 .accordion-button {
   position: relative;
   display: flex;
@@ -4669,7 +4676,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed) {
   color: #0c63e4;
-  background-color: #
+  
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4707,7 +4714,7 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: white;
   border: 0px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-item:first-of-type {
@@ -4735,7 +4742,7 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
-  background-color: beige;
+  background-color: white;
   padding: 1rem 1.25rem;
 }
 
@@ -5971,6 +5978,9 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  max-width: 900px;
+  margin: 110px auto;
+  border-radius: 10rem;
 }
 
 .carousel.pointer-event {
