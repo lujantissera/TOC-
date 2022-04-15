@@ -138,10 +138,11 @@ h2{
     text-align: center;
 }
 .formulario{    border-radius: 5px;
-    background-color: rgba(211, 211, 211, 0.589);
+    background-color: rgba(167, 165, 165, 0.589);
     padding: 25px;
     margin: 10px 450px;
     color: rgb(221, 216, 209);
+    text-align: right;
     }
 
 
