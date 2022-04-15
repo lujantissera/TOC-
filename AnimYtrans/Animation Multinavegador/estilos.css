@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+}
+
+/*
+@-moz-keyframes changeColor {   
+    from { background: red; }  
+    to { background: green; }   
+} 
+
+@-ms-keyframes changeColor {   
+    from { background: red; }    
+    to { background: green; } 
+} 
+
+@-webkit-keyframes changeColor {   
+    from { background: red; }   
+    to { background: green; } 
+} 
+
+@-o-keyframes changeColor {   
+    from { background: red; }  
+    to { background: green; }  
+} 
+
+
+@keyframes changeColor {   
+    from { background-color: red; }     
+    to { background-color: green; }   
+} 
+ 
+.anim {   
+    background-color: grey;   
+    color: #FFF;   
+    width: 150px;   
+    height: 150px;   
+    -webkit-animation: changeColor 5s linear infinite alternate;
+   -moz-animation: changeColor 5s linear infinite alternate;
+    -ms-animation: changeColor 5s linear infinite alternate;
+    -o-animation: changeColor 5s linear infinite alternate;
+    animation: changeColor 5s linear infinite alternate;
+} 
+*/
+/*aCA PARA QUE AGRANDE y achique*/
+
+
+@keyframes changeColor {
+    0% {
+        background: red;
+    }
+    50% {
+        background: yellow; 
+        width: 400px;
+    }
+        100% {
+        background: green;
+    }
+}
+
+.anim {
+    background: grey;
+    color: #FFF;
+    width: 150px;
+    height: 150px;
+    animation: changeColor 5s linear infinite alternate; 
+}
