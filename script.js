@@ -7,5 +7,5 @@ muchas
 Lineas
 */
 
-Sillon = "Amarillo"
+let Sillon = "Amarillo"
 
